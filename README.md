@@ -6,7 +6,7 @@ Simple repo for the study of prompt engineering and pranctice of prompting in di
 https://www.notion.so/Estudios-PROMPT-ENGINEERING-35f49a03b2df8020a7dfc1ec926daff7
 
 ## Repository Structure :
-.
+```
 ├── src/
 │   ├── bab-prompt.js
 │   ├── care-prompt.js
@@ -15,7 +15,7 @@ https://www.notion.so/Estudios-PROMPT-ENGINEERING-35f49a03b2df8020a7dfc1ec926daf
 ├── pnpm-lock.yaml
 ├── package.json
 └── README.md
-
+```
 ### About :
 I wanted to give an account of the certification I obtained by creating a repository that prompts hugging face models with different prompt schemes.
 
