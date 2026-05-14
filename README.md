@@ -44,3 +44,14 @@ const prompt = {
     bridge : 'give me a speech that convinces the people to have monitoring systems in their haouses',
 };
 ```
+
+### Context Action Result Example CARE :
+Prompt with the CARE promt scheme format
+```JavaScript
+const prompt = {
+    context : 'the company is falling apart',
+    action : 'make a speech that can up the morale',
+    results : 'better morale around the company',
+    example : 'Ladies and gentlemen. Valued employees. I have bad news: your salaries will be late for three months. But I am not taking a penny in salary until each and every one of you are made whole, with interest (if applicable). I’m asking my senior management/equity holders/co-owners to do the same. We’re at a critical point in our business, and it’s going to take a tremendous effort and sacrifice from all of us, blah blah blah.',
+}
+```
