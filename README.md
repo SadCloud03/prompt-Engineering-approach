@@ -2,3 +2,15 @@
 
 Simple repo for the study of prompt engineering and pranctice of prompting in different contexts
 
+## This is my notion for context (in spanish)
+https://www.notion.so/Estudios-PROMPT-ENGINEERING-35f49a03b2df8020a7dfc1ec926daff7
+
+### Thought-Action-Observation [ tarea-accion-objetivo/output (TAO) ] :
+Simple promt were i suse the TAO scheme of prompting, this is the prompt that i use 
+```JavaScript
+const prompt = {
+    task : 'talk me about the titanic',
+    action : 'i need you to talk me a little about the titanic',
+    objective : 'learning',
+}
+```
