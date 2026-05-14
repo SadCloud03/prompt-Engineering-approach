@@ -15,11 +15,14 @@ const prompt = {
 }
 
 // API call to the model
-const out = await client.chatCompletion({
-model: "meta-llama/Llama-3.1-8B-Instruct",
-messages: [{ role: "user", content: JSON.stringify(prompt) }],
-max_tokens: 512
-});
-
+try {
+    const out = await client.chatCompletion({
+        model: "meta-llama/Llama-3.1-8B-Instruct",
+        messages: [{ role: "user", content: JSON.stringify(prompt) }],
+        max_tokens: 512
+    });
+    console.log('\n' + out.choices[0].message.content);
+} catch (error) {
+    console.log('[error] : ', error.message)
+}
 // See the response
-console.log('\n' + out.choices[0].message.content);
