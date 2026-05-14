@@ -22,3 +22,13 @@ const prompt = {
 }
 ```
 
+### Role, Task, Format [ Rol-Tarea-Formato/output (RTF)] :
+Prompt with the RFT promt scheme format
+```JavaScript
+const prompt = {
+    role : 'carpinter',
+    task : 'how to built a table',
+    format : 'plain text',
+}
+```
+

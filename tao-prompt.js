@@ -21,8 +21,9 @@ try {
         messages: [{ role: "user", content: JSON.stringify(prompt) }],
         max_tokens: 512
     });
+    // See the response
     console.log('\n' + out.choices[0].message.content);
 } catch (error) {
+    // Added line in case of any error..
     console.log('[error] : ', error.message)
 }
-// See the response
