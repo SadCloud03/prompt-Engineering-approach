@@ -14,7 +14,7 @@ const prompt = {
     format : 'plain text',
 }
 
-// API call to de model
+// API call to the model
 try {
     const out = await client.chatCompletion({
         model: "meta-llama/Llama-3.1-8B-Instruct",
